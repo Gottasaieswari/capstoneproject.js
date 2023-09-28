@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookstore dasboard</title>
+  <style>
+    body {
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkQ4fxZ7Xz1TjvaSXlwAMGRcFHyt3s69HOqA&usqp=CAU');
+      background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color:goldenrod;
+      color:black;
+      text-align: center;
+      padding: 1rem;
+    }
+    .container {
+      max-width: 1200px;;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .featured-books {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    .book {
+      border: 1px solid hotpink;
+      padding: 1rem;
+      margin: 1rem;
+      width: calc(33.33% - 2rem);
+      box-sizing: border-box; 
+    }
+    .book img {
+      max-width: 100%;
+      height: auto;
+    }
+    .book-title {
+      font-weight: bold;
+      margin-top: 0.5rem;
+    }
+    .author {
+      color:hotpink;
+    }
+    .navbar{
+        display: flex;
+        align-items:right;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+        background-color:hotpink;
+        }
+ 
+        .background {
+            background:lightpink;
+            background-blend-mode: darken;
+            background-size: cover;
+            
+        }
+ 
+        .nav-list {
+            width: 100%;
+            display: flex;
+            align-items: right;
+
+        }
+ 
+        .nav-list li {
+            list-style: none;
+            padding: 30px 50px;
+            align-items: right;
+        }
+ 
+        .nav-list li a {
+            text-decoration: none;
+            color:cornsilk;
+        }
+        .center {
+            text-align: center;
+        }
+        .box{
+          color:darkgreen;
+          background-color:cornflowerblue;
+          max-width: 20px;
+          margin-top: 30px;
+          margin-bottom: 20px;
+          margin-left: 700px;
+          max-height: 20px;
+          
+        
+        }
+        .center{
+          text-align: center;
+        }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Our Bookstore</h1><br>
+    <a href="homepage">Go to Homepage</a>
+    <p>Discover a world of stories and knowledge.</p>
+  
+  </header>
+  <div class="box">
+    <input type="search here" name="search here"placeholder="search" /><br>
+
+  </div>
+  
+  <div class="container">
+    <a href="gry"><h2>Featured Books</h2></a>
+    <div class="featured-books">
+      <div class="book">
+        <img src="https://pup-assets.imgix.net/onix/images/9780691201078.jpg?w=230&auto=format" alt="Book 1">
+        <a href="gry"><h3 class="book-title">How Women Became Poets: A Gender History of Greek Literature</h3></a>
+        <p class="author">Emily Hauser</p>
+      </div>
+      <div class="book">
+        <img src="https://pup-assets.imgix.net/onix/images/9781942130857.jpg?w=230&auto=format" alt="Book 2">
+        <a href="tricks"> <h3 class="book-title">Tricks of the Light: Essays on Art and Spectacle</h3></a>
+        <p class="author">Author Name:Jonathan Crary</p>
+      </div>
+      <div class="book">
+        <img src="https://pup-assets.imgix.net/onix/images/9780691191287.jpg?w=230&auto=format" alt="Book 3">
+        <a href="eeee"><h3 class="book-title">Freedom from Fear</h3></a>
+        <p class="author">Author Name:Alan S. Kahan </p>
+      </div>
+      <div class="book">
+        <img src="https://pup-assets.imgix.net/onix/images/9780691199573.jpg?w=230&auto=format" alt="Book 4">
+        <a href="gry.html"> <h3 class="book-title">Research Design in the Social Sciences: Declaration, Diagnosis, and Redesign</h3></a>
+        <p class="author">Author Name:Graeme Blair, Alexander Coppock, and Macartan Humphreys</p>
+      </div>
+      <div class="book">
+        <img src="https://pup-assets.imgix.net/onix/images/9780691220888.jpg?w=230&auto=format" alt="Book 5">
+        <a href="gry.html"><h3 class="book-title">Work Pray Code: When Work Becomes Religion in Silicon Valley</h3></a>
+        <p class="author">Author Name:Carolyn Chen</p>
+      </div>
+      <div class="book">
+        <img src="https://pup-assets.imgix.net/onix/images/9780691235431.jpg?w=230&auto=format" alt="Book 6">
+        <a href="gry.html"><h3 class="book-title">The Currency of Politics: The Political Theory of Money from Aristotle to Keynes
+        </h3></a>
+        <p class="author">Author Name:Stefan Eich </p>
+      </div>
+      <div class="book">
+        <img src="https://pup-assets.imgix.net/onix/images/9780691212692.jpg?w=230&auto=format" alt="Book 7">
+        <a href="gry.html"><h3 class="book-title">On Czeslaw Milosz: Visions from the Other Europe
+        </h3></a>
+        <p class="author">Author Name:Eva Hoffman</p>
+      </div>
+      <div class="book">
+        <img src="https://pup-assets.imgix.net/onix/images/9780691254487.jpg?w=230&auto=format" alt="Book 8">
+        <a href="gry.html"> <h3 class="book-title">Surreal Spaces: The Life and Art of Leonora Carrington</h3></a>
+        <p class="author">Author Name:Joanna Moorhead </p>
+      </div>
+      <div class="book">
+        <img src="https://pup-assets.imgix.net/onix/images/9780691252049.jpg?w=230&auto=format" alt="Book 9">
+        <a href="gry.html"><h3 class="book-title">How to Interpret the Constitution</h3></a>
+        <p class="author">Author Name:Cass R. Sunstein        </p>
+      </div>
+      <div class="book">
+        <img src="https://pup-assets.imgix.net/onix/images/9780691235219.jpg?w=230&auto=format" alt="Book 10">
+        <a href="gry.html"><h3 class="book-title">The Internet Is Not What You Think It Is: A History, a Philosophy, a Warning
+        </h3></a>
+        <p class="author">Author Name:The Internet Is Not What You Think It Is: A History, a Philosophy, a Warning
+        </p>
+      </div>
+      <div class="book">
+        <img src="https://pup-assets.imgix.net/onix/images/9780691253923.jpg?w=230&auto=format" alt="Book 11">
+        <a href="gry.html"><h3 class="book-title">A History of Biology        </h3></a>
+        <p class="author">Author Name:Michel Morange</p>
+      </div>
+      <div class="book">
+        <img src="https://pup-assets.imgix.net/onix/images/9780691226200.jpg?w=230&auto=format" alt="Book 12">
+        <a href="gry.html"><h3 class="book-title">The Jesuits: A History        </h3></a>
+        <p class="author">Author Name:Markus Friedrich</p>
+      </div>
+      <div class="book">
+        <img src="https://pup-assets.imgix.net/onix/images/9780691228648.jpg?w=230&auto=format" alt="Book 13">
+        <a href="gry.html"><h3 class="book-title">The Road to Dien Bien Phu: A History of the First War for Vietnam
+        </h3></a>
+        <p class="author">Author Name:Christopher Goscha </p>
+      </div>
+      <div class="book">
+        <img src="https://pup-assets.imgix.net/onix/images/9780691244501.jpg?w=400&auto=format" alt="Book 14">
+        <a href="gry.html"><h3 class="book-title">Democracy Erodes from the Top: Leaders, Citizens, and the Challenge of Populism in Europe
+        </h3></a>
+        <p class="author">Author Name:Larry M. Bartels </p>
+      </div>
+      <div class="book">
+        <img src="https://pup-assets.imgix.net/onix/images/9780691252100.jpg?w=230&auto=format" alt="Book 15">
+        <a href="gry.html"><h3 class="book-title">Blake and Antiquity
+        </h3></a>
+        <p class="author">Author Name:Kathleen Raine</p>
+      </div>
+
+    </div>
+  </div>
+  <p>Stay connected for the latest books, Ideas, and special offers.
+  </p>
+</body>
+</html>
